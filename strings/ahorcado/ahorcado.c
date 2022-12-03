@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 
 void menu () {
     printf("----------------------\n");
@@ -10,8 +11,50 @@ void menu () {
     printf("3. Salir.\n");
     printf("----------------------\n");
 }
+
+void jugarAhorcado(char *adivinar){
+    char adivinado[1024];
+    // Copiamos para tener el mismo tamaño reservado
+    strcpy(adivinado, adivinar);
+    // Rellenamos de '-' adivinado
+    int pos = 0;
+    while (adivinado[pos] != '\0') {
+        adivinado[pos] = '-';
+        pos++;
+    }
+     
+    int fallos = 0;
+    //Juego
+    while (strcmp(adivinar, adivinado) != 0 && fallos < 6) {
+        //printf("ADIVINAR: %s - ADIVINADO: %s\n", adivinar, adivinado);
+        char letra; 
+        printf("Introduzca una letra: \n");
+        
+        letra = getchar();
+
+        
+        if (strchr(adivinar, letra) != NULL) {
+            int pos = 0;
+            while(adivinar[pos] != '\0') {
+                if (adivinar[pos] == letra) {
+                    adivinado[pos] = letra;
+                }
+                pos++;
+            }
+        } else {
+            fallos++;
+        }
+        
+
+        printf("Palabra: %s Errores: %i \n", adivinado, fallos);
+    }
+    
+    //printf("\n\n%s\n\n", adivinar);
+}
+
 int main () { 
 
+    char palabra[20] = "";
     int opcion = 0;
     while (opcion != 3)
     {
@@ -21,10 +64,16 @@ int main () {
         switch (opcion)
         {
         case 1:
-            printf("Uno\n");
+            printf("Por favor, introduzca una palabra: \n");
+            scanf("%s", palabra);
+            //printf("\n%s\n", palabra);
             break;
         case 2:
-            printf("Dos\n");
+            if (strcmp(palabra, "") == 0) {
+                printf("Primero debe introducir la palabra con la opcion 1. \n");
+            } else {
+                jugarAhorcado(palabra);
+            }
             break;
         case 3:
             printf("Salir\n");
@@ -35,7 +84,7 @@ int main () {
             break;
         }
     }
-    printf("Fuera");
+    //printf("Fuera");
     //system("pause");    
     return 0;
 }
