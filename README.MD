@@ -15,3 +15,5 @@ Click [here](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/) to
     First example C code.
 
 ### C Pointers
+
+### Strings
