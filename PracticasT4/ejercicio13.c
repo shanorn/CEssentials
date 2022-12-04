@@ -1,38 +1,45 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
 
+/*
+Escribe un programa que dada una cantidad de dinero indique cuál es la cantidad
+mínima de monedas (indicando el número de cada tipo de moneda) que se puede
+emplear para representar esa cantidad de dinero.
+*/
 void main () {
-    int numero;
-    // Inicialización de la rutina de números aletorios
-    srand(time(NULL));
-
-    int tam_ADN;
-    char cadena_ADN[1024] = ""; 
-    printf("Introduzca el largo de la cadena de ADN: \n");
+    float dinero;
+    printf("Introduzca la cantidad de dinero (Euros) a cambiar:\n");
     fflush(stdin);
-    scanf("%d", &tam_ADN);
-    
-    for (int i = 0; i<tam_ADN; i++){
-        numero =rand() % 4;
-        char letra;
-        switch (numero){
-            case 0:
-                letra = 'A';
-                break;
-            case 1:
-                letra = 'C';
-                break;
-            case 2:
-                letra = 'T';
-                break;
-            case 3:
-                letra = 'G';
-                break;
-        }
-        cadena_ADN[i] = letra;
-    }
-    cadena_ADN[tam_ADN] = '\0';
+    scanf("%f", &dinero);
 
-    printf("%s", cadena_ADN);
+    dinero *= 100;
+    // Si se hace la operación directamente sobre la asignación puede fallar 3.85 => 384
+    int dinero_entero = dinero;
+
+    printf("%d\n\n", dinero_entero);
+
+    int monedas[] = {200, 100, 50, 20, 10, 5, 2, 1};
+    int cantidad_monedas[] = {0, 0, 0, 0, 0, 0, 0, 0};
+
+    // Calcula cantidad de tipos de monedas
+    int longitud_monedas = sizeof(monedas)/sizeof(monedas[0]);
+    
+    // printf("%d", longitud_monedas);
+    // Se va comprobando si es divisible de mayor a menor (orden en lista)
+    for (int i = 0; i < longitud_monedas; i++){
+        while (dinero_entero >= monedas[i]) {
+            dinero_entero -= monedas[i];
+            cantidad_monedas[i]++;
+        }
+    }
+
+    // Mostramos los resultados
+    for (int i = 0; i < longitud_monedas; i++) {
+        float valor = ((float) monedas[i])/100;
+        printf("%d monedas de %.2f Euros.\n", cantidad_monedas[i], valor);
+    }
+
+
+
+
+
 }
