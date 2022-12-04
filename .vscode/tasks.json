@@ -19,7 +19,7 @@
       "detail": "Tarea generada por el depurador."
     },
     {
-      "type": "shell",
+      "type": "process",
       "label": "C: Ejecutar archivo",
       "command": "${fileDirname}\\${fileBasenameNoExtension}.exe",
       "dependsOn": ["C: Compilar archivo"],
