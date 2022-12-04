@@ -74,6 +74,7 @@ int main () {
             printf("Por favor, introduzca una palabra: \n");
             scanf("%s", palabra);
             //printf("\n%s\n", palabra);
+            // 
             break;
         case 2:
             if (strcmp(palabra, "") == 0) {
