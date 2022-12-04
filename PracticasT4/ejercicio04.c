@@ -13,7 +13,7 @@ void main () {
         if (i % 5 == 0) {
             suma_multiplos += i;
             contar_multiplos++;
-            printf("%d: %d - SumaActual: %d", contar_multiplos, i, suma_multiplos);
+            printf("%d: %d - SumaActual: %d\n", contar_multiplos, i, suma_multiplos);
         }
     }
 }

@@ -1,58 +1,34 @@
 {
-    "tasks": [
-        {
-            "label": "compile and run C",
-            "type": "shell",
-            "command": "gcc ${file} -o ${fileBasenameNoExtension} ./${fileBasenameNoExtension} ",
-            "presentation": {
-                "reveal": "always",
-                "panel": "shared"
-            },
-            "group": "build"
-        },
-        {
-            "type": "cppbuild",
-            "label": "C/C++: compilar archivo activo con gcc.exe",
-            "command": "C:\\MinGW\\bin\\gcc.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": "build",
-            "detail": "Tarea generada por el depurador."
-        },
-        {
-            "type": "cppbuild",
-            "label": "C/C++: gcc.exe compilar archivo activo",
-            "command": "C:\\MinGW\\bin\\gcc.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "detail": "Tarea generada por el depurador."
-        }
-    ],
-    "version": "2.0.0"
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C: Compilar archivo",
+      "command": "C:\\MinGW\\bin\\gcc.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": "build",
+      "detail": "Tarea generada por el depurador."
+    },
+    {
+      "type": "shell",
+      "label": "C: Ejecutar archivo",
+      "command": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "dependsOn": ["C: Compilar archivo"],
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ],
+  "version": "2.0.0"
 }
