@@ -13,7 +13,7 @@ void menu () {
 }
 
 void jugarAhorcado(char *adivinar){
-    char adivinado[1024];
+    char adivinado[20];
     // Copiamos para tener el mismo tamaño reservado
     strcpy(adivinado, adivinar);
     // Rellenamos de '-' adivinado
@@ -25,14 +25,17 @@ void jugarAhorcado(char *adivinar){
      
     int fallos = 0;
     //Juego
+    char letra = ' ';
+
     while (strcmp(adivinar, adivinado) != 0 && fallos < 6) {
         //printf("ADIVINAR: %s - ADIVINADO: %s\n", adivinar, adivinado);
-        char letra; 
+         
         printf("Introduzca una letra: \n");
-        
+        //fflush(stdout);
+        fflush(stdin);
         letra = getchar();
+        //while(getchar() != '\n');
 
-        
         if (strchr(adivinar, letra) != NULL) {
             int pos = 0;
             while(adivinar[pos] != '\0') {
@@ -41,6 +44,7 @@ void jugarAhorcado(char *adivinar){
                 }
                 pos++;
             }
+            
         } else {
             fallos++;
         }
@@ -49,6 +53,9 @@ void jugarAhorcado(char *adivinar){
         printf("Palabra: %s Errores: %i \n", adivinado, fallos);
     }
     
+    if (strcmp(adivinar, adivinado) == 0) {
+        printf("\n\nHAS GANADO!! La palabra era: %s", adivinar);
+    }
     //printf("\n\n%s\n\n", adivinar);
 }
 
@@ -73,6 +80,7 @@ int main () {
                 printf("Primero debe introducir la palabra con la opcion 1. \n");
             } else {
                 jugarAhorcado(palabra);
+                opcion = 3;
             }
             break;
         case 3:
