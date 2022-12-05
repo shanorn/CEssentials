@@ -24,28 +24,56 @@ Click [here](https://cheatography.com/ashlyn-black/cheat-sheets/c-reference/) to
 
 | Function | Description                                                         |
 | -------- | ------------------------------------------------------------------- |
-| abs      | valor absoluto                                                      |
-| acos     | arco coseno                                                         |
-| asin     | arco seno                                                           |
-| atan     | arco tangente                                                       |
-| atan2    | arco tangente usando signos para determinar los cuadrantes          |
-| ceil     | devuelve el entero más pequeño no menor que el valor que se le pasa |
-| cos      | coseno                                                              |
-| cosh     | cosen hiperbólico                                                   |
-| exp      | devuelve "e" elevador o argumentos que se le pasa                   |
-| fabs     | valor absoluto de números reales                                    |
-| floor    | devuelve mayor entero no menor que la cantidad que se le pasa       |
-| labs     | valor absoluto de un long                                           |
-| log      | logaritmo natural                                                   |
-| log10    | logaritmo en base 10                                                |
-| pow      | devuelve el primer parámetro elevado segundo                        |
-| sin      | seno                                                                |
-| sinh     | seno hiperbólico                                                    |
-| sqrt     | raíz cuadrada                                                       |
-| tan      | tangente                                                            |
-| tanh     | tangente hiperbólica                                                |
+| abs      | Valor absoluto                                                      |
+| acos     | Arco coseno                                                         |
+| asin     | Arco seno                                                           |
+| atan     | Arco tangente                                                       |
+| atan2    | Arco tangente usando signos para determinar los cuadrantes          |
+| ceil     | Devuelve el entero más pequeño no menor que el valor que se le pasa |
+| cos      | Coseno                                                              |
+| cosh     | Cosen hiperbólico                                                   |
+| exp      | Devuelve "e" elevador o argumentos que se le pasa                   |
+| fabs     | Valor absoluto de números reales                                    |
+| floor    | Devuelve mayor entero no menor que la cantidad que se le pasa       |
+| labs     | Valor absoluto de un long                                           |
+| log      | Logaritmo natural                                                   |
+| log10    | Logaritmo en base 10                                                |
+| pow      | Devuelve el primer parámetro elevado segundo                        |
+| sin      | Seno                                                                |
+| sinh     | Seno hiperbólico                                                    |
+| sqrt     | Raíz cuadrada                                                       |
+| tan      | Tangente                                                            |
+| tanh     | Tangente hiperbólica                                                |
 
-#### Math.h
+#### Ctype.h
+
+| Function | Description                                                   |
+| -------- | ------------------------------------------------------------- |
+| isalnum  | Devuelve 1 si el carácter argumento es alfanumérico           |
+| isalpha  | Devuelve 1 si el carácter argumento es alfabético             |
+| iscntrl  | Devuelve 1 si el carácter argumento es un carácter de control |
+| isdigit  | Devuelve 1 si el carácter argumento es un dígito              |
+| islower  | Devuelve 1 si el carácter argumento está en minúscula         |
+| isspace  | Devuelve 1 si el carácter argumento es el espacio en blanco   |
+| isupper  | Devuelve 1 si el carácter argumento está en mayúscula         |
+| tolower  | Convierte un carácter a minúscula                             |
+| toupper  | Convierte un carácter en mayúscula                            |
+
+#### Standard C
+
+| Function | Description                                                 |
+| -------- | ----------------------------------------------------------- |
+| atof     | Convierte un string en un double (stdlib.h)                 |
+| atoi     | Convierte un string en un integer (stdlib.h)                |
+| atol     | Convierte un string en un long (stdlib.h)                   |
+| strcat   | Concatena dos strings (string.h)                            |
+| strcmp   | Compara dos strings (string.h)                              |
+| strcpy   | Se copia una cadena de caracteres en otra (string.h)        |
+| strlen   | Devuelve la longitud de una cadena de caracteres (string.h) |
+| strncat  | Concatena dos cadenas de caracteres (string.h)              |
+| strtod   | Convierte un string en un double (string.h)                 |
+| strtol   | Convierte un string en un long (string.h)                   |
+| strtoul  | Convierte un string en un unsigned long (string.h)          |
 
 #### Práctica Palabras
 
