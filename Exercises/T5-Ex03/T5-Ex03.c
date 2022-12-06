@@ -14,6 +14,8 @@ char toUpperCase (char minuscula) {
         mayuscula = 0;
         printf("El caracter introducido no es una letra minusucla: a-z\n");
     }
+
+    return mayuscula;
 }
 
 void main () {
