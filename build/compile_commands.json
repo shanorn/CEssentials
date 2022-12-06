@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/zerox/Documents/CEssentials/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\Cmake.dir\\Exercises\\T5-Ex07\\main.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Exercises\\T5-Ex07\\main.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/Exercises/T5-Ex07/main.c"
+},
+{
+  "directory": "C:/Users/zerox/Documents/CEssentials/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\Cmake.dir\\Exercises\\T5-Ex07\\vector.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Exercises\\T5-Ex07\\vector.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/Exercises/T5-Ex07/vector.c"
+}
+]
