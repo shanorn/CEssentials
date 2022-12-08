@@ -7,7 +7,8 @@ CMakeFiles/Cmake.dir/Exercises/T5-Ex09/complejos.c.obj: ../Exercises/T5-Ex09/com
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/w32api.h \
   C:/MinGW/include/sdkddkver.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  C:/MinGW/include/math.h
 
 CMakeFiles/Cmake.dir/Exercises/T5-Ex09/main.c.obj: ../Exercises/T5-Ex09/main.c \
   C:/MinGW/include/stdio.h \
@@ -31,11 +32,13 @@ C:/MinGW/include/stdlib.h:
 
 C:/MinGW/include/_mingw.h:
 
-../Exercises/T5-Ex09/main.c:
-
 C:/MinGW/include/sdkddkver.h:
 
 C:/MinGW/include/msvcrtver.h:
+
+C:/MinGW/include/math.h:
+
+../Exercises/T5-Ex09/main.c:
 
 C:/MinGW/include/stdio.h:
 

@@ -33,5 +33,11 @@ void main () {
     printf("(%.2f + %.2fi) + (%.2f + %.2fi) = (%.2f + %.2fi)\n", num1[0], num1[1], num2[0], num2[1], nuevoResultado[0], nuevoResultado[1]); 
 
     resta_complejos(num1, num2, resultado);  
-    printf("(%.2f + %.2fi) - (%.2f + %.2fi) = (%.2f + %.2fi)\n", num1[0], num1[1], num2[0], num2[1], resultado[0], resultado[1]); 
+    printf("(%.2f + %.2fi) - (%.2f + %.2fi) = (%.2f + %.2fi)\n", num1[0], num1[1], num2[0], num2[1], resultado[0], resultado[1]);
+
+    multiplica_complejos(num1, num2, resultado);
+    printf("(%.2f + %.2fi) * (%.2f + %.2fi) = (%.2f + %.2fi)\n", num1[0], num1[1], num2[0], num2[1], resultado[0], resultado[1]);
+
+    divide_complejos(num1, num2, resultado);
+    printf("(%.2f + %.2fi) / (%.2f + %.2fi) = (%.2f + %.2fi)\n", num1[0], num1[1], num2[0], num2[1], resultado[0], resultado[1]);
 }
