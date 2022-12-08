@@ -20,10 +20,10 @@ static int minimo_comun_multiplo(int a, int b) {
     return (a * b) / maximo_comun_divisor(a, b);
 }
 
-static void simplificaRacional(int numero[2]) {
-    int mcm = maximo_comun_divisor(numero[0], numero[1]);
-    numero[0] /= mcm;
-    numero[1] /= mcm;
+void simplificaRacional(int numero[2]) {
+    int mcd = maximo_comun_divisor(numero[0], numero[1]);
+    numero[0] /= mcd;
+    numero[1] /= mcd;
 }
 
 void sumaRacional(int numeroX[2], int numeroY[2], int resultado[2]) {
@@ -31,3 +31,22 @@ void sumaRacional(int numeroX[2], int numeroY[2], int resultado[2]) {
     resultado[0] = resultado[1]/numeroX[1]*numeroX[0] + resultado[1]/numeroY[1]*numeroY[0];
     simplificaRacional(resultado);
 }
+
+void restaRacional(int numeroX[2], int numeroY[2], int resultado[2]) {
+    resultado[1] = minimo_comun_multiplo(numeroX[1], numeroY[1]);
+    resultado[0] = resultado[1]/numeroX[1]*numeroX[0] - resultado[1]/numeroY[1]*numeroY[0];
+    simplificaRacional(resultado);
+}
+
+void multiplicaRacional(int numeroX[2], int numeroY[2], int resultado[2]) {
+    resultado[0] = numeroX[0] * numeroY[0];
+    resultado[1] = numeroX[1] * numeroY[1];
+    simplificaRacional(resultado);
+}
+
+void divideRacional(int numeroX[2], int numeroY[2], int resultado[2]) {
+    resultado[0] = numeroX[0] * numeroY[1];
+    resultado[1] = numeroX[1] * numeroY[0];
+    simplificaRacional(resultado);
+}
+
