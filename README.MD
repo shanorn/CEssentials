@@ -125,43 +125,43 @@ void spin_words(const char *sentence, char *result) {
 
 #### Pending task to practice: Fractions
 
-> struct - Fraccion compuesta por numerador y denominador
-> scanf / printf - Leer y escribir con formato fraccion: a/b
-> array / pointers - Memoria para almacenar fracciones: id, fraccion. Las operaciones se hacen sobre la memoria. La direccion de memoria puede servir de id.
+- struct - Fraccion compuesta por numerador y denominador
+- scanf / printf - Leer y escribir con formato fraccion: a/b
+- array / pointers - Memoria para almacenar fracciones: id, fraccion. Las operaciones se hacen sobre la memoria. La direccion de memoria puede servir de id.
 
 ##### Menu
 
 ---
 
-> scanf / printf - Escribir menú y leer opciones
-> if - Comprobar opciones y si hay datos
-> while / if - Mantener en funcionamiento la calculadora o salir
+- scanf / printf - Escribir menú y leer opciones
+- if - Comprobar opciones y si hay datos
+- while / if - Mantener en funcionamiento la calculadora o salir
 
 ##### Functionality
 
 ---
 
-> array / pointers - Introducir multiples fracciones
-> array / pointers - Eliminar una fraccion segun direccion de memoria
-> array / pointers - Mostrar una fraccion segun direccion de memoria
-> for / array / pointers - Mostrar todas las fracciones de la memoria
-> functions - Mostrar valor real de la fraccion
-> functions - Simplificacion de una fraccion, se mostrará por pantalla y quedará almacenado el resultado
-> functions - Operaciones suma, resta, multiplicación y división de fracciones, el resultado siempre será una fracción simplificada.
-> La fracción se almacenará en memoria.
-> files - Guardar fichero con todas las fracciones en memoria. Solo cuando lo solicite el usuario desde el menu.
-> files - Cargar fichero de fracciones previamente almacenado en memoria
+- array / pointers - Introducir multiples fracciones
+- array / pointers - Eliminar una fraccion segun direccion de memoria
+- array / pointers - Mostrar una fraccion segun direccion de memoria
+- for / array / pointers - Mostrar todas las fracciones de la memoria
+- functions - Mostrar valor real de la fraccion
+- functions - Simplificacion de una fraccion, se mostrará por pantalla y quedará almacenado el resultado
+- functions - Operaciones suma, resta, multiplicación y división de fracciones, el resultado siempre será una fracción simplificada.
+- La fracción se almacenará en memoria.
+- files - Guardar fichero con todas las fracciones en memoria. Solo cuando lo solicite el usuario desde el menu.
+- files - Cargar fichero de fracciones previamente almacenado en memoria
 
 ##### NFRs
 
 ---
 
-> functions - Funciones bien estructuradas con el paso de parametros y devolución de resultados
-> organization - 2 Modulos: Uno encargado de toda la funcionalidad, otro que encapsule toda la interaccion con el usuario.
-> struct - Representar fraccion e identificador
+- functions - Funciones bien estructuradas con el paso de parametros y devolución de resultados
+- organization - 2 Modulos: Uno encargado de toda la funcionalidad, otro que encapsule toda la interaccion con el usuario.
+- struct - Representar fraccion e identificador
 
 ##### Extra
 
-> dynamic memory - Utilización de memoria dinamica para almacenar las fracciones +1.5
+- dynamic memory - Utilización de memoria dinamica para almacenar las fracciones +1.5
 
 ---
