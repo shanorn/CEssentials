@@ -522,53 +522,53 @@ Cmake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/build
 .PHONY : Cmake/fast
 
-Exercises/T5-Ex09/complejos.obj: Exercises/T5-Ex09/complejos.c.obj
-.PHONY : Exercises/T5-Ex09/complejos.obj
+Exercises/T5-Ex10/main.obj: Exercises/T5-Ex10/main.c.obj
+.PHONY : Exercises/T5-Ex10/main.obj
 
 # target to build an object file
-Exercises/T5-Ex09/complejos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex09/complejos.c.obj
-.PHONY : Exercises/T5-Ex09/complejos.c.obj
+Exercises/T5-Ex10/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.obj
+.PHONY : Exercises/T5-Ex10/main.c.obj
 
-Exercises/T5-Ex09/complejos.i: Exercises/T5-Ex09/complejos.c.i
-.PHONY : Exercises/T5-Ex09/complejos.i
+Exercises/T5-Ex10/main.i: Exercises/T5-Ex10/main.c.i
+.PHONY : Exercises/T5-Ex10/main.i
 
 # target to preprocess a source file
-Exercises/T5-Ex09/complejos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex09/complejos.c.i
-.PHONY : Exercises/T5-Ex09/complejos.c.i
+Exercises/T5-Ex10/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.i
+.PHONY : Exercises/T5-Ex10/main.c.i
 
-Exercises/T5-Ex09/complejos.s: Exercises/T5-Ex09/complejos.c.s
-.PHONY : Exercises/T5-Ex09/complejos.s
+Exercises/T5-Ex10/main.s: Exercises/T5-Ex10/main.c.s
+.PHONY : Exercises/T5-Ex10/main.s
 
 # target to generate assembly for a file
-Exercises/T5-Ex09/complejos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex09/complejos.c.s
-.PHONY : Exercises/T5-Ex09/complejos.c.s
+Exercises/T5-Ex10/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.s
+.PHONY : Exercises/T5-Ex10/main.c.s
 
-Exercises/T5-Ex09/main.obj: Exercises/T5-Ex09/main.c.obj
-.PHONY : Exercises/T5-Ex09/main.obj
+Exercises/T5-Ex10/racionales.obj: Exercises/T5-Ex10/racionales.c.obj
+.PHONY : Exercises/T5-Ex10/racionales.obj
 
 # target to build an object file
-Exercises/T5-Ex09/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex09/main.c.obj
-.PHONY : Exercises/T5-Ex09/main.c.obj
+Exercises/T5-Ex10/racionales.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.obj
+.PHONY : Exercises/T5-Ex10/racionales.c.obj
 
-Exercises/T5-Ex09/main.i: Exercises/T5-Ex09/main.c.i
-.PHONY : Exercises/T5-Ex09/main.i
+Exercises/T5-Ex10/racionales.i: Exercises/T5-Ex10/racionales.c.i
+.PHONY : Exercises/T5-Ex10/racionales.i
 
 # target to preprocess a source file
-Exercises/T5-Ex09/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex09/main.c.i
-.PHONY : Exercises/T5-Ex09/main.c.i
+Exercises/T5-Ex10/racionales.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.i
+.PHONY : Exercises/T5-Ex10/racionales.c.i
 
-Exercises/T5-Ex09/main.s: Exercises/T5-Ex09/main.c.s
-.PHONY : Exercises/T5-Ex09/main.s
+Exercises/T5-Ex10/racionales.s: Exercises/T5-Ex10/racionales.c.s
+.PHONY : Exercises/T5-Ex10/racionales.s
 
 # target to generate assembly for a file
-Exercises/T5-Ex09/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex09/main.c.s
-.PHONY : Exercises/T5-Ex09/main.c.s
+Exercises/T5-Ex10/racionales.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.s
+.PHONY : Exercises/T5-Ex10/racionales.c.s
 
 # Help Target
 help:
@@ -610,12 +610,12 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... Cmake
-	@echo ... Exercises/T5-Ex09/complejos.obj
-	@echo ... Exercises/T5-Ex09/complejos.i
-	@echo ... Exercises/T5-Ex09/complejos.s
-	@echo ... Exercises/T5-Ex09/main.obj
-	@echo ... Exercises/T5-Ex09/main.i
-	@echo ... Exercises/T5-Ex09/main.s
+	@echo ... Exercises/T5-Ex10/main.obj
+	@echo ... Exercises/T5-Ex10/main.i
+	@echo ... Exercises/T5-Ex10/main.s
+	@echo ... Exercises/T5-Ex10/racionales.obj
+	@echo ... Exercises/T5-Ex10/racionales.i
+	@echo ... Exercises/T5-Ex10/racionales.s
 .PHONY : help
 
 

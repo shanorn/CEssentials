@@ -1,12 +1,12 @@
 [
 {
   "directory": "C:/Users/zerox/Documents/CEssentials/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\Cmake.dir\\Exercises\\T5-Ex09\\main.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Exercises\\T5-Ex09\\main.c",
-  "file": "C:/Users/zerox/Documents/CEssentials/Exercises/T5-Ex09/main.c"
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\Cmake.dir\\Exercises\\T5-Ex10\\main.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Exercises\\T5-Ex10\\main.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/Exercises/T5-Ex10/main.c"
 },
 {
   "directory": "C:/Users/zerox/Documents/CEssentials/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\Cmake.dir\\Exercises\\T5-Ex09\\complejos.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Exercises\\T5-Ex09\\complejos.c",
-  "file": "C:/Users/zerox/Documents/CEssentials/Exercises/T5-Ex09/complejos.c"
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\Cmake.dir\\Exercises\\T5-Ex10\\racionales.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Exercises\\T5-Ex10\\racionales.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/Exercises/T5-Ex10/racionales.c"
 }
 ]
