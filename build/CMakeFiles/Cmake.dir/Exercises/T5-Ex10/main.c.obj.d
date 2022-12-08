@@ -5,4 +5,5 @@ CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.obj: \
  c:\mingw\include\sdkddkver.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
  c:\mingw\include\sys/types.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
+ C:\Users\zerox\Documents\CEssentials\Exercises\T5-Ex10\racionales.h
