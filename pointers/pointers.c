@@ -1,14 +1,18 @@
 #include <stdio.h>
 
+void geeks();
+void base_pointer_sample();
+
 int main() {
-    int var = 5;
+    //int var = 5;
     // To show value allocate in var
-    printf("var value: %d\n", var);
+    // printf("var value: %d\n", var);
 
     // To show adress use of & var 
-    printf("var adress: %p\n\n", &var);
+    // printf("var adress: %p\n\n", &var);
 
-    geeks();
+    //geeks();
+    base_pointer_sample();
 
     return 0;
 }
@@ -51,6 +55,21 @@ void geeks()
     printf("Value at ptr = %p \n", ptr);
     printf("Value at var = %d \n", var);
     printf("Value at *ptr = %d \n", *ptr);
+}
+
+void base_pointer_sample() {
+    int entero01 = 3; 
+    int entero02;
+
+    int *p_entero01;
+    int *p_entero02;
+
+    p_entero01 = &entero01;
+    entero02 = *p_entero01;
+    p_entero02 = &entero02;
+
+    printf("\nentero01: %d - &entero01: %p - p_entero01: %X - *p_entero01: %d", entero01, &entero01, p_entero01, *p_entero01);
+    printf("\nentero02: %d - &entero02: %p - p_entero02: %X - *p_entero02: %d", entero01, &entero01, p_entero01, *p_entero01);
 }
 
 

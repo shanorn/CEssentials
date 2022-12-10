@@ -522,53 +522,29 @@ Cmake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/build
 .PHONY : Cmake/fast
 
-Exercises/T5-Ex10/main.obj: Exercises/T5-Ex10/main.c.obj
-.PHONY : Exercises/T5-Ex10/main.obj
+pointers/main.obj: pointers/main.c.obj
+.PHONY : pointers/main.obj
 
 # target to build an object file
-Exercises/T5-Ex10/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.obj
-.PHONY : Exercises/T5-Ex10/main.c.obj
+pointers/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/pointers/main.c.obj
+.PHONY : pointers/main.c.obj
 
-Exercises/T5-Ex10/main.i: Exercises/T5-Ex10/main.c.i
-.PHONY : Exercises/T5-Ex10/main.i
-
-# target to preprocess a source file
-Exercises/T5-Ex10/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.i
-.PHONY : Exercises/T5-Ex10/main.c.i
-
-Exercises/T5-Ex10/main.s: Exercises/T5-Ex10/main.c.s
-.PHONY : Exercises/T5-Ex10/main.s
-
-# target to generate assembly for a file
-Exercises/T5-Ex10/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.s
-.PHONY : Exercises/T5-Ex10/main.c.s
-
-Exercises/T5-Ex10/racionales.obj: Exercises/T5-Ex10/racionales.c.obj
-.PHONY : Exercises/T5-Ex10/racionales.obj
-
-# target to build an object file
-Exercises/T5-Ex10/racionales.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.obj
-.PHONY : Exercises/T5-Ex10/racionales.c.obj
-
-Exercises/T5-Ex10/racionales.i: Exercises/T5-Ex10/racionales.c.i
-.PHONY : Exercises/T5-Ex10/racionales.i
+pointers/main.i: pointers/main.c.i
+.PHONY : pointers/main.i
 
 # target to preprocess a source file
-Exercises/T5-Ex10/racionales.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.i
-.PHONY : Exercises/T5-Ex10/racionales.c.i
+pointers/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/pointers/main.c.i
+.PHONY : pointers/main.c.i
 
-Exercises/T5-Ex10/racionales.s: Exercises/T5-Ex10/racionales.c.s
-.PHONY : Exercises/T5-Ex10/racionales.s
+pointers/main.s: pointers/main.c.s
+.PHONY : pointers/main.s
 
 # target to generate assembly for a file
-Exercises/T5-Ex10/racionales.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.s
-.PHONY : Exercises/T5-Ex10/racionales.c.s
+pointers/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/pointers/main.c.s
+.PHONY : pointers/main.c.s
 
 # Help Target
 help:
@@ -610,12 +586,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... Cmake
-	@echo ... Exercises/T5-Ex10/main.obj
-	@echo ... Exercises/T5-Ex10/main.i
-	@echo ... Exercises/T5-Ex10/main.s
-	@echo ... Exercises/T5-Ex10/racionales.obj
-	@echo ... Exercises/T5-Ex10/racionales.i
-	@echo ... Exercises/T5-Ex10/racionales.s
+	@echo ... pointers/main.obj
+	@echo ... pointers/main.i
+	@echo ... pointers/main.s
 .PHONY : help
 
 

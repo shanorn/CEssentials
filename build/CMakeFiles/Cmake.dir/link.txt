@@ -1,3 +1,3 @@
 "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Cmake.dir/objects.a
 C:\MinGW\bin\ar.exe qc CMakeFiles\Cmake.dir/objects.a @CMakeFiles\Cmake.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Cmake.dir/objects.a -Wl,--no-whole-archive -o T5-Ex10.exe -Wl,--out-implib,libT5-Ex10.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Cmake.dir\linklibs.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Cmake.dir/objects.a -Wl,--no-whole-archive -o main.exe -Wl,--out-implib,libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Cmake.dir\linklibs.rsp

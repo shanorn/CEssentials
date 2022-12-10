@@ -68,53 +68,37 @@ include CMakeFiles/Cmake.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Cmake.dir/flags.make
 
-CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.obj: CMakeFiles/Cmake.dir/flags.make
-CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.obj: ../Exercises/T5-Ex10/main.c
-CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.obj: CMakeFiles/Cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zerox\Documents\CEssentials\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.obj -MF CMakeFiles\Cmake.dir\Exercises\T5-Ex10\main.c.obj.d -o CMakeFiles\Cmake.dir\Exercises\T5-Ex10\main.c.obj -c C:\Users\zerox\Documents\CEssentials\Exercises\T5-Ex10\main.c
+CMakeFiles/Cmake.dir/pointers/main.c.obj: CMakeFiles/Cmake.dir/flags.make
+CMakeFiles/Cmake.dir/pointers/main.c.obj: ../pointers/main.c
+CMakeFiles/Cmake.dir/pointers/main.c.obj: CMakeFiles/Cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zerox\Documents\CEssentials\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Cmake.dir/pointers/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cmake.dir/pointers/main.c.obj -MF CMakeFiles\Cmake.dir\pointers\main.c.obj.d -o CMakeFiles\Cmake.dir\pointers\main.c.obj -c C:\Users\zerox\Documents\CEssentials\pointers\main.c
 
-CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\zerox\Documents\CEssentials\Exercises\T5-Ex10\main.c > CMakeFiles\Cmake.dir\Exercises\T5-Ex10\main.c.i
+CMakeFiles/Cmake.dir/pointers/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Cmake.dir/pointers/main.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\zerox\Documents\CEssentials\pointers\main.c > CMakeFiles\Cmake.dir\pointers\main.c.i
 
-CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\zerox\Documents\CEssentials\Exercises\T5-Ex10\main.c -o CMakeFiles\Cmake.dir\Exercises\T5-Ex10\main.c.s
-
-CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.obj: CMakeFiles/Cmake.dir/flags.make
-CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.obj: ../Exercises/T5-Ex10/racionales.c
-CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.obj: CMakeFiles/Cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zerox\Documents\CEssentials\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.obj -MF CMakeFiles\Cmake.dir\Exercises\T5-Ex10\racionales.c.obj.d -o CMakeFiles\Cmake.dir\Exercises\T5-Ex10\racionales.c.obj -c C:\Users\zerox\Documents\CEssentials\Exercises\T5-Ex10\racionales.c
-
-CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\zerox\Documents\CEssentials\Exercises\T5-Ex10\racionales.c > CMakeFiles\Cmake.dir\Exercises\T5-Ex10\racionales.c.i
-
-CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\zerox\Documents\CEssentials\Exercises\T5-Ex10\racionales.c -o CMakeFiles\Cmake.dir\Exercises\T5-Ex10\racionales.c.s
+CMakeFiles/Cmake.dir/pointers/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Cmake.dir/pointers/main.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\zerox\Documents\CEssentials\pointers\main.c -o CMakeFiles\Cmake.dir\pointers\main.c.s
 
 # Object files for target Cmake
 Cmake_OBJECTS = \
-"CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.obj" \
-"CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.obj"
+"CMakeFiles/Cmake.dir/pointers/main.c.obj"
 
 # External object files for target Cmake
 Cmake_EXTERNAL_OBJECTS =
 
-T5-Ex10.exe: CMakeFiles/Cmake.dir/Exercises/T5-Ex10/main.c.obj
-T5-Ex10.exe: CMakeFiles/Cmake.dir/Exercises/T5-Ex10/racionales.c.obj
-T5-Ex10.exe: CMakeFiles/Cmake.dir/build.make
-T5-Ex10.exe: CMakeFiles/Cmake.dir/linklibs.rsp
-T5-Ex10.exe: CMakeFiles/Cmake.dir/objects1.rsp
-T5-Ex10.exe: CMakeFiles/Cmake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zerox\Documents\CEssentials\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable T5-Ex10.exe"
+main.exe: CMakeFiles/Cmake.dir/pointers/main.c.obj
+main.exe: CMakeFiles/Cmake.dir/build.make
+main.exe: CMakeFiles/Cmake.dir/linklibs.rsp
+main.exe: CMakeFiles/Cmake.dir/objects1.rsp
+main.exe: CMakeFiles/Cmake.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zerox\Documents\CEssentials\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Cmake.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Cmake.dir/build: T5-Ex10.exe
+CMakeFiles/Cmake.dir/build: main.exe
 .PHONY : CMakeFiles/Cmake.dir/build
 
 CMakeFiles/Cmake.dir/clean:

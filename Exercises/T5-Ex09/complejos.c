@@ -1,6 +1,10 @@
 #include<stdlib.h>
 #include<math.h>
 
+// a + bi 
+// a = num1[0]
+// b = num1[1]
+
 void suma_complejos_proc(float num1[2], float num2[2], float resultado[3]) {
     resultado[0] = num1[0] + num2[0];
     resultado[1] = num1[1] + num2[1];
