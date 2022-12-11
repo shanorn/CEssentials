@@ -4,7 +4,7 @@ project(Cmake VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(Cmake ./pointers/main.c)
+add_executable(Cmake ./pointers/main-Ej7.c)
 set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "main")
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})

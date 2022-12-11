@@ -522,29 +522,29 @@ Cmake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/build
 .PHONY : Cmake/fast
 
-pointers/main.obj: pointers/main.c.obj
-.PHONY : pointers/main.obj
+pointers/main-Ej7.obj: pointers/main-Ej7.c.obj
+.PHONY : pointers/main-Ej7.obj
 
 # target to build an object file
-pointers/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/pointers/main.c.obj
-.PHONY : pointers/main.c.obj
+pointers/main-Ej7.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj
+.PHONY : pointers/main-Ej7.c.obj
 
-pointers/main.i: pointers/main.c.i
-.PHONY : pointers/main.i
+pointers/main-Ej7.i: pointers/main-Ej7.c.i
+.PHONY : pointers/main-Ej7.i
 
 # target to preprocess a source file
-pointers/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/pointers/main.c.i
-.PHONY : pointers/main.c.i
+pointers/main-Ej7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/pointers/main-Ej7.c.i
+.PHONY : pointers/main-Ej7.c.i
 
-pointers/main.s: pointers/main.c.s
-.PHONY : pointers/main.s
+pointers/main-Ej7.s: pointers/main-Ej7.c.s
+.PHONY : pointers/main-Ej7.s
 
 # target to generate assembly for a file
-pointers/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/pointers/main.c.s
-.PHONY : pointers/main.c.s
+pointers/main-Ej7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Cmake.dir\build.make CMakeFiles/Cmake.dir/pointers/main-Ej7.c.s
+.PHONY : pointers/main-Ej7.c.s
 
 # Help Target
 help:
@@ -586,9 +586,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... Cmake
-	@echo ... pointers/main.obj
-	@echo ... pointers/main.i
-	@echo ... pointers/main.s
+	@echo ... pointers/main-Ej7.obj
+	@echo ... pointers/main-Ej7.i
+	@echo ... pointers/main-Ej7.s
 .PHONY : help
 
 

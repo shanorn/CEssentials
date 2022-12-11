@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/zerox/Documents/CEssentials/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\Cmake.dir\\pointers\\main.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\pointers\\main.c",
-  "file": "C:/Users/zerox/Documents/CEssentials/pointers/main.c"
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\Cmake.dir\\pointers\\main-Ej7.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\pointers\\main-Ej7.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/pointers/main-Ej7.c"
 }
 ]

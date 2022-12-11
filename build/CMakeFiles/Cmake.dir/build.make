@@ -68,28 +68,28 @@ include CMakeFiles/Cmake.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Cmake.dir/flags.make
 
-CMakeFiles/Cmake.dir/pointers/main.c.obj: CMakeFiles/Cmake.dir/flags.make
-CMakeFiles/Cmake.dir/pointers/main.c.obj: ../pointers/main.c
-CMakeFiles/Cmake.dir/pointers/main.c.obj: CMakeFiles/Cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zerox\Documents\CEssentials\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Cmake.dir/pointers/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cmake.dir/pointers/main.c.obj -MF CMakeFiles\Cmake.dir\pointers\main.c.obj.d -o CMakeFiles\Cmake.dir\pointers\main.c.obj -c C:\Users\zerox\Documents\CEssentials\pointers\main.c
+CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj: CMakeFiles/Cmake.dir/flags.make
+CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj: ../pointers/main-Ej7.c
+CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj: CMakeFiles/Cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zerox\Documents\CEssentials\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj -MF CMakeFiles\Cmake.dir\pointers\main-Ej7.c.obj.d -o CMakeFiles\Cmake.dir\pointers\main-Ej7.c.obj -c C:\Users\zerox\Documents\CEssentials\pointers\main-Ej7.c
 
-CMakeFiles/Cmake.dir/pointers/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Cmake.dir/pointers/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\zerox\Documents\CEssentials\pointers\main.c > CMakeFiles\Cmake.dir\pointers\main.c.i
+CMakeFiles/Cmake.dir/pointers/main-Ej7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Cmake.dir/pointers/main-Ej7.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\zerox\Documents\CEssentials\pointers\main-Ej7.c > CMakeFiles\Cmake.dir\pointers\main-Ej7.c.i
 
-CMakeFiles/Cmake.dir/pointers/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Cmake.dir/pointers/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\zerox\Documents\CEssentials\pointers\main.c -o CMakeFiles\Cmake.dir\pointers\main.c.s
+CMakeFiles/Cmake.dir/pointers/main-Ej7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Cmake.dir/pointers/main-Ej7.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\zerox\Documents\CEssentials\pointers\main-Ej7.c -o CMakeFiles\Cmake.dir\pointers\main-Ej7.c.s
 
 # Object files for target Cmake
 Cmake_OBJECTS = \
-"CMakeFiles/Cmake.dir/pointers/main.c.obj"
+"CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj"
 
 # External object files for target Cmake
 Cmake_EXTERNAL_OBJECTS =
 
-main.exe: CMakeFiles/Cmake.dir/pointers/main.c.obj
+main.exe: CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj
 main.exe: CMakeFiles/Cmake.dir/build.make
 main.exe: CMakeFiles/Cmake.dir/linklibs.rsp
 main.exe: CMakeFiles/Cmake.dir/objects1.rsp

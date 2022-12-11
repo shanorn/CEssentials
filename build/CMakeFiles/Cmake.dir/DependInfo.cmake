@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/zerox/Documents/CEssentials/pointers/main.c" "CMakeFiles/Cmake.dir/pointers/main.c.obj" "gcc" "CMakeFiles/Cmake.dir/pointers/main.c.obj.d"
+  "C:/Users/zerox/Documents/CEssentials/pointers/main-Ej7.c" "CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj" "gcc" "CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj.d"
   )
 
 # Targets to which this target links.

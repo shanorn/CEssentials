@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Cmake.dir/pointers/main.c.obj"
-  "CMakeFiles/Cmake.dir/pointers/main.c.obj.d"
+  "CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj"
+  "CMakeFiles/Cmake.dir/pointers/main-Ej7.c.obj.d"
   "libmain.dll.a"
   "main.exe"
   "main.exe.manifest"
