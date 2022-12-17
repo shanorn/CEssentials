@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libpolinomios.a CMakeFiles/polinomios.dir/polinomios.cpp.obj
+C:\MinGW\bin\ranlib.exe libpolinomios.a
