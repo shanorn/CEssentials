@@ -1,3 +1,8 @@
+/*
+Escribir un programa que pida el grado de un polinomio, sus coeficientes y un
+valor para "x" y que calcule el valor del polinomio en x. Emplear un array para
+almacenar los coeficientes del polinomio
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>

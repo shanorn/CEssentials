@@ -1,3 +1,8 @@
+/*
+Empleando un array, escribir un programa que pida al usuario números enteros
+hasta que se introduzca el número 0. A continuación, calcular la media, el mínimo
+y el máximo de los datos introducidos.
+*/
 #include<stdio.h>
 #include<limits.h>
 

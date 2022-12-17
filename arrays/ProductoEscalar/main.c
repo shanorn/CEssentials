@@ -1,3 +1,7 @@
+/*
+Escribir un programa que solicite al usuario dos vectores de N elementos y que
+imprima su producto escalar.
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
