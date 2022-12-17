@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/polinomios"
+			"value" : "C:/Program Files (x86)/polinomio"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1731,42 +1731,6 @@
 		},
 		{
 			"name" : "polinomio_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/zerox/Documents/CEssentials/arrays/Polinomio"
-		},
-		{
-			"name" : "polinomios_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/zerox/Documents/CEssentials/arrays/Polinomio/build"
-		},
-		{
-			"name" : "polinomios_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "polinomios_SOURCE_DIR",
 			"properties" : 
 			[
 				{

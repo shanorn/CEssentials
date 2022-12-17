@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/zerox/Documents/CEssentials/arrays/Polinomio/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\polinomio.dir\\main.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\arrays\\Polinomio\\main.c",
-  "file": "C:/Users/zerox/Documents/CEssentials/arrays/Polinomio/main.c"
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\polinomio.dir\\main_estatico.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\arrays\\Polinomio\\main_estatico.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/arrays/Polinomio/main_estatico.c"
 }
 ]

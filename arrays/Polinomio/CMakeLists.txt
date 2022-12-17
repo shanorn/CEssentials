@@ -4,7 +4,7 @@ project(polinomio VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_library(polinomio main.c)
+add_executable(polinomio main_estatico.c)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/polinomio.dir/main.c.obj"
-  "CMakeFiles/polinomio.dir/main.c.obj.d"
-  "libpolinomio.a"
-  "libpolinomio.pdb"
+  "CMakeFiles/polinomio.dir/main_estatico.c.obj"
+  "CMakeFiles/polinomio.dir/main_estatico.c.obj.d"
+  "libpolinomio.dll.a"
+  "polinomio.exe"
+  "polinomio.exe.manifest"
+  "polinomio.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

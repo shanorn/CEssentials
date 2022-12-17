@@ -1,2 +1,3 @@
-C:\MinGW\bin\ar.exe qc libpolinomio.a CMakeFiles/polinomio.dir/main.c.obj
-C:\MinGW\bin\ranlib.exe libpolinomio.a
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\polinomio.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\polinomio.dir/objects.a @CMakeFiles\polinomio.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\polinomio.dir/objects.a -Wl,--no-whole-archive -o polinomio.exe -Wl,--out-implib,libpolinomio.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\polinomio.dir\linklibs.rsp
