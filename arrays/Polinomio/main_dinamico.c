@@ -13,7 +13,7 @@ int main () {
     fflush(stdin);
     scanf("%d", &grado);
 
-    coeficientes = malloc((grado + 1)*sizeof(float));
+    coeficientes = (float *) malloc((grado + 1)*sizeof(float));
 
     // Comprobamos que el grado esté en el rango permitido (0, 50]
     if (grado <= 0 || grado > 50) {
