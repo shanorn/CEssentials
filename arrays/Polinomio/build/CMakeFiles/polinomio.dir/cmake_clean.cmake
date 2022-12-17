@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/polinomio.dir/main_estatico.c.obj"
-  "CMakeFiles/polinomio.dir/main_estatico.c.obj.d"
+  "CMakeFiles/polinomio.dir/main_dinamico.c.obj"
+  "CMakeFiles/polinomio.dir/main_dinamico.c.obj.d"
   "libpolinomio.dll.a"
   "polinomio.exe"
   "polinomio.exe.manifest"

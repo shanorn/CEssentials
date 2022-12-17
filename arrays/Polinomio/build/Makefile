@@ -522,29 +522,29 @@ polinomio/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\polinomio.dir\build.make CMakeFiles/polinomio.dir/build
 .PHONY : polinomio/fast
 
-main_estatico.obj: main_estatico.c.obj
-.PHONY : main_estatico.obj
+main_dinamico.obj: main_dinamico.c.obj
+.PHONY : main_dinamico.obj
 
 # target to build an object file
-main_estatico.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\polinomio.dir\build.make CMakeFiles/polinomio.dir/main_estatico.c.obj
-.PHONY : main_estatico.c.obj
+main_dinamico.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\polinomio.dir\build.make CMakeFiles/polinomio.dir/main_dinamico.c.obj
+.PHONY : main_dinamico.c.obj
 
-main_estatico.i: main_estatico.c.i
-.PHONY : main_estatico.i
+main_dinamico.i: main_dinamico.c.i
+.PHONY : main_dinamico.i
 
 # target to preprocess a source file
-main_estatico.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\polinomio.dir\build.make CMakeFiles/polinomio.dir/main_estatico.c.i
-.PHONY : main_estatico.c.i
+main_dinamico.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\polinomio.dir\build.make CMakeFiles/polinomio.dir/main_dinamico.c.i
+.PHONY : main_dinamico.c.i
 
-main_estatico.s: main_estatico.c.s
-.PHONY : main_estatico.s
+main_dinamico.s: main_dinamico.c.s
+.PHONY : main_dinamico.s
 
 # target to generate assembly for a file
-main_estatico.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\polinomio.dir\build.make CMakeFiles/polinomio.dir/main_estatico.c.s
-.PHONY : main_estatico.c.s
+main_dinamico.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\polinomio.dir\build.make CMakeFiles/polinomio.dir/main_dinamico.c.s
+.PHONY : main_dinamico.c.s
 
 # Help Target
 help:
@@ -586,9 +586,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... polinomio
-	@echo ... main_estatico.obj
-	@echo ... main_estatico.i
-	@echo ... main_estatico.s
+	@echo ... main_dinamico.obj
+	@echo ... main_dinamico.i
+	@echo ... main_dinamico.s
 .PHONY : help
 
 

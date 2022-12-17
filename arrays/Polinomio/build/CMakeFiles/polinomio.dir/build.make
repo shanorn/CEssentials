@@ -68,28 +68,28 @@ include CMakeFiles/polinomio.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/polinomio.dir/flags.make
 
-CMakeFiles/polinomio.dir/main_estatico.c.obj: CMakeFiles/polinomio.dir/flags.make
-CMakeFiles/polinomio.dir/main_estatico.c.obj: ../main_estatico.c
-CMakeFiles/polinomio.dir/main_estatico.c.obj: CMakeFiles/polinomio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zerox\Documents\CEssentials\arrays\Polinomio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/polinomio.dir/main_estatico.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/polinomio.dir/main_estatico.c.obj -MF CMakeFiles\polinomio.dir\main_estatico.c.obj.d -o CMakeFiles\polinomio.dir\main_estatico.c.obj -c C:\Users\zerox\Documents\CEssentials\arrays\Polinomio\main_estatico.c
+CMakeFiles/polinomio.dir/main_dinamico.c.obj: CMakeFiles/polinomio.dir/flags.make
+CMakeFiles/polinomio.dir/main_dinamico.c.obj: ../main_dinamico.c
+CMakeFiles/polinomio.dir/main_dinamico.c.obj: CMakeFiles/polinomio.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zerox\Documents\CEssentials\arrays\Polinomio\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/polinomio.dir/main_dinamico.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/polinomio.dir/main_dinamico.c.obj -MF CMakeFiles\polinomio.dir\main_dinamico.c.obj.d -o CMakeFiles\polinomio.dir\main_dinamico.c.obj -c C:\Users\zerox\Documents\CEssentials\arrays\Polinomio\main_dinamico.c
 
-CMakeFiles/polinomio.dir/main_estatico.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/polinomio.dir/main_estatico.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\zerox\Documents\CEssentials\arrays\Polinomio\main_estatico.c > CMakeFiles\polinomio.dir\main_estatico.c.i
+CMakeFiles/polinomio.dir/main_dinamico.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/polinomio.dir/main_dinamico.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\zerox\Documents\CEssentials\arrays\Polinomio\main_dinamico.c > CMakeFiles\polinomio.dir\main_dinamico.c.i
 
-CMakeFiles/polinomio.dir/main_estatico.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/polinomio.dir/main_estatico.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\zerox\Documents\CEssentials\arrays\Polinomio\main_estatico.c -o CMakeFiles\polinomio.dir\main_estatico.c.s
+CMakeFiles/polinomio.dir/main_dinamico.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/polinomio.dir/main_dinamico.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\zerox\Documents\CEssentials\arrays\Polinomio\main_dinamico.c -o CMakeFiles\polinomio.dir\main_dinamico.c.s
 
 # Object files for target polinomio
 polinomio_OBJECTS = \
-"CMakeFiles/polinomio.dir/main_estatico.c.obj"
+"CMakeFiles/polinomio.dir/main_dinamico.c.obj"
 
 # External object files for target polinomio
 polinomio_EXTERNAL_OBJECTS =
 
-polinomio.exe: CMakeFiles/polinomio.dir/main_estatico.c.obj
+polinomio.exe: CMakeFiles/polinomio.dir/main_dinamico.c.obj
 polinomio.exe: CMakeFiles/polinomio.dir/build.make
 polinomio.exe: CMakeFiles/polinomio.dir/linklibs.rsp
 polinomio.exe: CMakeFiles/polinomio.dir/objects1.rsp

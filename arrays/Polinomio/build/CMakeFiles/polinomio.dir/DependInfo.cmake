@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/zerox/Documents/CEssentials/arrays/Polinomio/main_estatico.c" "CMakeFiles/polinomio.dir/main_estatico.c.obj" "gcc" "CMakeFiles/polinomio.dir/main_estatico.c.obj.d"
+  "C:/Users/zerox/Documents/CEssentials/arrays/Polinomio/main_dinamico.c" "CMakeFiles/polinomio.dir/main_dinamico.c.obj" "gcc" "CMakeFiles/polinomio.dir/main_dinamico.c.obj.d"
   )
 
 # Targets to which this target links.
