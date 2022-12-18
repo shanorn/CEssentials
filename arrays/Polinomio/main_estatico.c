@@ -22,7 +22,7 @@ int main () {
 
     // Comprobamos que el grado esté en el rango permitido (0, 50]
     if (grado <= 0 || grado > 50) {
-        printf("El grado permitido está fuera de rango (0, 50]\n");
+        printf("El grado introducido está fuera de rango (0, 50]\n");
         exit(-1);
     }
 
