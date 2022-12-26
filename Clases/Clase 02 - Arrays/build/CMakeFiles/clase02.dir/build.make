@@ -68,28 +68,28 @@ include CMakeFiles/clase02.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/clase02.dir/flags.make
 
-CMakeFiles/clase02.dir/ejercicio08.c.obj: CMakeFiles/clase02.dir/flags.make
-CMakeFiles/clase02.dir/ejercicio08.c.obj: ../ejercicio08.c
-CMakeFiles/clase02.dir/ejercicio08.c.obj: CMakeFiles/clase02.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\zerox\Documents\CEssentials\Clases\Clase 02 - Arrays\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clase02.dir/ejercicio08.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clase02.dir/ejercicio08.c.obj -MF CMakeFiles\clase02.dir\ejercicio08.c.obj.d -o CMakeFiles\clase02.dir\ejercicio08.c.obj -c "C:\Users\zerox\Documents\CEssentials\Clases\Clase 02 - Arrays\ejercicio08.c"
+CMakeFiles/clase02.dir/ejercicio10.c.obj: CMakeFiles/clase02.dir/flags.make
+CMakeFiles/clase02.dir/ejercicio10.c.obj: ../ejercicio10.c
+CMakeFiles/clase02.dir/ejercicio10.c.obj: CMakeFiles/clase02.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\zerox\Documents\CEssentials\Clases\Clase 02 - Arrays\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clase02.dir/ejercicio10.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/clase02.dir/ejercicio10.c.obj -MF CMakeFiles\clase02.dir\ejercicio10.c.obj.d -o CMakeFiles\clase02.dir\ejercicio10.c.obj -c "C:\Users\zerox\Documents\CEssentials\Clases\Clase 02 - Arrays\ejercicio10.c"
 
-CMakeFiles/clase02.dir/ejercicio08.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clase02.dir/ejercicio08.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\zerox\Documents\CEssentials\Clases\Clase 02 - Arrays\ejercicio08.c" > CMakeFiles\clase02.dir\ejercicio08.c.i
+CMakeFiles/clase02.dir/ejercicio10.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clase02.dir/ejercicio10.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\zerox\Documents\CEssentials\Clases\Clase 02 - Arrays\ejercicio10.c" > CMakeFiles\clase02.dir\ejercicio10.c.i
 
-CMakeFiles/clase02.dir/ejercicio08.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clase02.dir/ejercicio08.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\zerox\Documents\CEssentials\Clases\Clase 02 - Arrays\ejercicio08.c" -o CMakeFiles\clase02.dir\ejercicio08.c.s
+CMakeFiles/clase02.dir/ejercicio10.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clase02.dir/ejercicio10.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\zerox\Documents\CEssentials\Clases\Clase 02 - Arrays\ejercicio10.c" -o CMakeFiles\clase02.dir\ejercicio10.c.s
 
 # Object files for target clase02
 clase02_OBJECTS = \
-"CMakeFiles/clase02.dir/ejercicio08.c.obj"
+"CMakeFiles/clase02.dir/ejercicio10.c.obj"
 
 # External object files for target clase02
 clase02_EXTERNAL_OBJECTS =
 
-clase02.exe: CMakeFiles/clase02.dir/ejercicio08.c.obj
+clase02.exe: CMakeFiles/clase02.dir/ejercicio10.c.obj
 clase02.exe: CMakeFiles/clase02.dir/build.make
 clase02.exe: CMakeFiles/clase02.dir/linklibs.rsp
 clase02.exe: CMakeFiles/clase02.dir/objects1.rsp

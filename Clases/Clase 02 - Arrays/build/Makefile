@@ -522,29 +522,29 @@ clase02/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\clase02.dir\build.make CMakeFiles/clase02.dir/build
 .PHONY : clase02/fast
 
-ejercicio08.obj: ejercicio08.c.obj
-.PHONY : ejercicio08.obj
+ejercicio10.obj: ejercicio10.c.obj
+.PHONY : ejercicio10.obj
 
 # target to build an object file
-ejercicio08.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\clase02.dir\build.make CMakeFiles/clase02.dir/ejercicio08.c.obj
-.PHONY : ejercicio08.c.obj
+ejercicio10.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\clase02.dir\build.make CMakeFiles/clase02.dir/ejercicio10.c.obj
+.PHONY : ejercicio10.c.obj
 
-ejercicio08.i: ejercicio08.c.i
-.PHONY : ejercicio08.i
+ejercicio10.i: ejercicio10.c.i
+.PHONY : ejercicio10.i
 
 # target to preprocess a source file
-ejercicio08.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\clase02.dir\build.make CMakeFiles/clase02.dir/ejercicio08.c.i
-.PHONY : ejercicio08.c.i
+ejercicio10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\clase02.dir\build.make CMakeFiles/clase02.dir/ejercicio10.c.i
+.PHONY : ejercicio10.c.i
 
-ejercicio08.s: ejercicio08.c.s
-.PHONY : ejercicio08.s
+ejercicio10.s: ejercicio10.c.s
+.PHONY : ejercicio10.s
 
 # target to generate assembly for a file
-ejercicio08.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\clase02.dir\build.make CMakeFiles/clase02.dir/ejercicio08.c.s
-.PHONY : ejercicio08.c.s
+ejercicio10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\clase02.dir\build.make CMakeFiles/clase02.dir/ejercicio10.c.s
+.PHONY : ejercicio10.c.s
 
 # Help Target
 help:
@@ -586,9 +586,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... clase02
-	@echo ... ejercicio08.obj
-	@echo ... ejercicio08.i
-	@echo ... ejercicio08.s
+	@echo ... ejercicio10.obj
+	@echo ... ejercicio10.i
+	@echo ... ejercicio10.s
 .PHONY : help
 
 

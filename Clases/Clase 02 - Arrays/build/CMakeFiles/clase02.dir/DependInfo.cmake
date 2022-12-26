@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/zerox/Documents/CEssentials/Clases/Clase 02 - Arrays/ejercicio08.c" "CMakeFiles/clase02.dir/ejercicio08.c.obj" "gcc" "CMakeFiles/clase02.dir/ejercicio08.c.obj.d"
+  "C:/Users/zerox/Documents/CEssentials/Clases/Clase 02 - Arrays/ejercicio10.c" "CMakeFiles/clase02.dir/ejercicio10.c.obj" "gcc" "CMakeFiles/clase02.dir/ejercicio10.c.obj.d"
   )
 
 # Targets to which this target links.

@@ -4,7 +4,7 @@ project(clase02 VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(clase02 ejercicio08.c)
+add_executable(clase02 ejercicio10.c)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

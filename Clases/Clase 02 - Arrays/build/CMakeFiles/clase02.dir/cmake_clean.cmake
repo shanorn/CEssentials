@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/clase02.dir/ejercicio08.c.obj"
-  "CMakeFiles/clase02.dir/ejercicio08.c.obj.d"
+  "CMakeFiles/clase02.dir/ejercicio10.c.obj"
+  "CMakeFiles/clase02.dir/ejercicio10.c.obj.d"
   "clase02.exe"
   "clase02.exe.manifest"
   "clase02.pdb"
