@@ -1,0 +1,3 @@
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\vocales.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\vocales.dir/objects.a @CMakeFiles\vocales.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\vocales.dir/objects.a -Wl,--no-whole-archive -o vocales.exe -Wl,--out-implib,libvocales.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\vocales.dir\linklibs.rsp
