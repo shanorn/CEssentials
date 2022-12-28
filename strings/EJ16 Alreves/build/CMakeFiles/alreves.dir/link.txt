@@ -1,0 +1,3 @@
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\alreves.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\alreves.dir/objects.a @CMakeFiles\alreves.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\alreves.dir/objects.a -Wl,--no-whole-archive -o alreves.exe -Wl,--out-implib,libalreves.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\alreves.dir\linklibs.rsp
