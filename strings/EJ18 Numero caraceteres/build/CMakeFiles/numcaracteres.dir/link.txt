@@ -1,0 +1,3 @@
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\numcaracteres.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\numcaracteres.dir/objects.a @CMakeFiles\numcaracteres.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\numcaracteres.dir/objects.a -Wl,--no-whole-archive -o numcaracteres.exe -Wl,--out-implib,libnumcaracteres.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\numcaracteres.dir\linklibs.rsp
