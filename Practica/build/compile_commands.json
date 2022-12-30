@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Users/zerox/Documents/CEssentials/Practica/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\calculadoraRacionales.dir\\main.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Practica\\main.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/Practica/main.c"
+},
+{
+  "directory": "C:/Users/zerox/Documents/CEssentials/Practica/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\calculadoraRacionales.dir\\calculadora.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Practica\\calculadora.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/Practica/calculadora.c"
+},
+{
+  "directory": "C:/Users/zerox/Documents/CEssentials/Practica/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\calculadoraRacionales.dir\\racionales.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Practica\\racionales.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/Practica/racionales.c"
+}
+]

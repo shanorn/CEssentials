@@ -30,8 +30,11 @@ int main(){
 
     // Incluimos sobre cad2 la cad1 pero cambiada de orden
     printf("\n");
+    // "perro"
+    // strlen - 5
+    //
     for (int i = 0; i < strlen(cad1); i++) {
-        cad2[i] = cad1[strlen(cad1) - i - 1];
+        cad2[i] = cad1[strlen(cad1) - 1 - i];
     }
     cad2[strlen(cad1)] = '\0';
     printf("Cadena al reves: [%s]\n", cad2);

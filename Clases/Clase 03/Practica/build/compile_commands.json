@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/zerox/Documents/CEssentials/Clases/Clase 03/Practica/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\practica.dir\\main.c.obj -c \"C:\\Users\\zerox\\Documents\\CEssentials\\Clases\\Clase 03\\Practica\\main.c\"",
+  "file": "C:/Users/zerox/Documents/CEssentials/Clases/Clase 03/Practica/main.c"
+},
+{
+  "directory": "C:/Users/zerox/Documents/CEssentials/Clases/Clase 03/Practica/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\practica.dir\\calculadora.c.obj -c \"C:\\Users\\zerox\\Documents\\CEssentials\\Clases\\Clase 03\\Practica\\calculadora.c\"",
+  "file": "C:/Users/zerox/Documents/CEssentials/Clases/Clase 03/Practica/calculadora.c"
+}
+]
