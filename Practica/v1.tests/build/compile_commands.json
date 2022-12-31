@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/zerox/Documents/CEssentials/Practica/v1.tests/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\calculadoraFraccion.dir\\main.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Practica\\v1.tests\\main.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/Practica/v1.tests/main.c"
+},
+{
+  "directory": "C:/Users/zerox/Documents/CEssentials/Practica/v1.tests/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\calculadoraFraccion.dir\\calculadora.c.obj -c C:\\Users\\zerox\\Documents\\CEssentials\\Practica\\v1.tests\\calculadora.c",
+  "file": "C:/Users/zerox/Documents/CEssentials/Practica/v1.tests/calculadora.c"
+}
+]
