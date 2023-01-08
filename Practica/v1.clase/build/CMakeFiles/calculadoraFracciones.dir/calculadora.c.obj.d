@@ -1,5 +1,6 @@
 CMakeFiles/calculadoraFracciones.dir/calculadora.c.obj: \
  C:\Users\zerox\Documents\CEssentials\Practica\v1.clase\calculadora.c \
+ C:\Users\zerox\Documents\CEssentials\Practica\v1.clase\calculadora.h \
  c:\mingw\include\stdio.h c:\mingw\include\_mingw.h \
  c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
  c:\mingw\include\sdkddkver.h \

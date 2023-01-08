@@ -1,4 +1,5 @@
-#include<stdio.h>
+
+#include"calculadora.h"
 //Aquí no habría que poner "calculadora.h" ??
 #define TAM_MEMORIA 3000
 

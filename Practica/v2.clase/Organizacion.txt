@@ -1,0 +1,18 @@
+
++ Ficheros de Cabecera (.h)
+	- Constantes (#defines)
+	- Tipos de datos públicos (struc, typedefs)
+	- Prototipos de funciones públicas (cabeceras)
+	- Declaraciones extern de variables públicas.
+
+	Comentarios 
+	- Nombre del módulo
+	- Función que desempeña
+	- Funciones
+		* Qué es lo que realiza?
+		* Qué posibles valores devuele?
+		* Qué cambios realiza? 
+	Es importante recalcar que los ficheros cabecera no pertenecen al lenguaje C y son más una costumbre que una regla sintáctica. 
+	En un fichero cabecera se pueden escribir cuerpos de funciones, definiciones de variables... cualquier cosa. 
+	Es responsabilidad del programador escribir los ficheros cabeceras según las normas aquí descritas.
+	

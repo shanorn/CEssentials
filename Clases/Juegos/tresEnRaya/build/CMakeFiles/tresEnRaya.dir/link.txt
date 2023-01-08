@@ -1,0 +1,3 @@
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\tresEnRaya.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\tresEnRaya.dir/objects.a @CMakeFiles\tresEnRaya.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\tresEnRaya.dir/objects.a -Wl,--no-whole-archive -o tresEnRaya.exe -Wl,--out-implib,libtresEnRaya.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tresEnRaya.dir\linklibs.rsp
